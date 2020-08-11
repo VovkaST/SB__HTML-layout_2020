@@ -120,14 +120,16 @@ ul {
 .quick-search__container {
     position: relative;
 }
-.quick-search__container::after {
+.quick-search__button {
     position: absolute;
     right: 1em;
-    top: 0.8em;
-    width: 20px;
-    height: 20px;
+    top: 0.7em;
+    width: 25px;
+    height: 23px;
     background: url(../images/magnifier.png) no-repeat;
+    border: none;
     content: '';
+    cursor: pointer;
 }
 
 .sections-block {
